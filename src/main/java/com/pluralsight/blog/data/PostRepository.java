@@ -10,7 +10,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-@Component
 public interface PostRepository extends JpaRepository<Post, Long> {
 
     @RestResource(rel="contains-title", path="containsTitle")
